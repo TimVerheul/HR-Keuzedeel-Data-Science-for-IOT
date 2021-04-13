@@ -3,7 +3,7 @@
 Living in a newly built home is notoriously known for its high humidity. This might attract insects that I don't like. Most insects only survive at a certain humid and temperature. This IoT project is made to give insight in the living condition of my bedroom by monitoring the humidity and temperature of my bedroom remotely. When the temperature or humidity get too high, I will now know when to open some windows for more ventilation. This will increase air circulation in the room and reduce the temperature.
 The idea behind this project is to implement a humidity and temperature detector, DHT22 with a Raspberry Pi 4 and visualize the data with the Home app on my iPhone. With the help of Homebridge, I will be able to see the sensor data directly on my iPhone. A Python script that is constantly running will show the historical data over time. This is even more convenient with the Home app being installed on my iPhone, where accessing the readings of humidity and temperature in my bedroom is just a touch away. If the temperature and humidity are too high, I now know when to open a window in my bedroom. This will increase the living condition in my room.
 ## Pipeline of this IoT Project
-Pipeline of this IoT project can be found in file:"My IoT Pipeline.png". The pipeline diagram depicts the problem narrated in the "Story" paragraph to solution of it. The pipeline of this IoT project is narrated in a video.
+Pipeline of this IoT project can be found in file:"My IoT Pipeline.png". The pipeline diagram depicts the problem narrated in the "Story" paragraph to solution of it.
 
 ## Things needed
 ### Hardware components
