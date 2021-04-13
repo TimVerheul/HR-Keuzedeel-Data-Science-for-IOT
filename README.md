@@ -1,7 +1,7 @@
 # HR-Keuzedeel-Data-Science-for-IOT
 ## Story
 Living in a newly built home is notoriously known for its high humidity. This might attract insects that I don't like. Most insects only survive at a certain humid and temperature. This IoT project is made to give insight in the living condition of my bedroom by monitoring the humidity and temperature of my bedroom remotely. When the temperature or humidity get too high, I will now know when to open some windows for more ventilation. This will increase air circulation in the room and reduce the temperature.
-The idea behind this project is to implement a humidity and temperature detector, DHT22 with a Raspberry Pi 4 and visualize the data with the Home app on my iPhone. With the help of Homebridge, I will be able to see the sensor data directly on my iPhone. A Python script that is constantly running will show the historical data over time. This is even more convinent with the Home app being installed on my iPhone, where accessing the readings of humidity and temperature in my bedroom is just a touch away. If the temperature and humidity are too high, I now know when to open a window in my bedroom. This will increase the living condition in my room.
+The idea behind this project is to implement a humidity and temperature detector, DHT22 with a Raspberry Pi 4 and visualize the data with the Home app on my iPhone. With the help of Homebridge, I will be able to see the sensor data directly on my iPhone. A Python script that is constantly running will show the historical data over time. This is even more convenient with the Home app being installed on my iPhone, where accessing the readings of humidity and temperature in my bedroom is just a touch away. If the temperature and humidity are too high, I now know when to open a window in my bedroom. This will increase the living condition in my room.
 ## Pipeline of this IoT Project
 Pipeline of this IoT project can be found in file:"My IoT Pipeline.png". The pipeline diagram depicts the problem narrated in the "Story" paragraph to solution of it. The pipeline of this IoT project is narrated in a video.
 
@@ -25,7 +25,7 @@ Pipeline of this IoT project can be found in file:"My IoT Pipeline.png". The pip
 ## Hardware Setup
 In this section, the process of connecting DHT22 sensor to Raspberry Pi is described
 ### Overview of DHT22 
-DHT22 is a sensor which ables to detect humidity in % and temperature in °C. Refer to file:"DHT22 with numbered pins.png" for pins numbering. Pinout descriptions are as follows:
+DHT22 is a sensor that is able to detect humidity in % and temperature in °C and °F. Refer to file:"DHT22 with numbered pins.png" for pins numbering. Pinout descriptions are as follows:
 - Pin 1 = DATA, data out
 - Pin 2 = VCC, power supply
 - Pin 3 = GND, ground
@@ -42,7 +42,7 @@ Plug in the power adapter and the ethernet cable and connect it to the Raspberry
 Now, the hardware is all connected and the next software setup can be proceeded.
 
 ## Software Setup
-To setup your new Raspberry Pi, refer to "THE OFFICAL Raspberry Pi Beginner's Guide, Chapter 2". 
+To setup your new Raspberry Pi, refer to "THE OFFICIAL Raspberry Pi Beginner's Guide, Chapter 2". 
 1. Once it's all set and ready, let's proceed to updating the Raspberry Pi by running the following commands:
 * sudo apt full-upgrade
 * sudo reboot
@@ -90,7 +90,7 @@ Refer to file:"DHT22 sensor data visualization.png". The output will show the hu
 To get the output you need to run: python dht.py
 
 ## Viewing the visualization on your Phone
-To access the visualized signal data on your phone, you first need to link Homebridge with your iPhone Home app. This can be done by opening the Home app on your iPhone and scanning the QR code found at the homescreen of the Homebridge dashboard. After scanning the QR code, the accessory will be added automatically to your Home app. In the file:"HomebridgeVisualization.png" it shows the visualisation of humidity and temperature readings in my bedroom at the current time. 
+To access the visualized signal data on your phone, you first need to link Homebridge with your iPhone Home app. This can be done by opening the Home app on your iPhone and scanning the QR code found at the homescreen of the Homebridge dashboard. After scanning the QR code, the accessory will be added automatically to your Home app. In the file:"HomebridgeVisualization.png" it shows the visualization of humidity and temperature readings in my bedroom at the current time. 
 
 ## Video
 Refer to file "demonstration.mp4" for the demonstration video.
