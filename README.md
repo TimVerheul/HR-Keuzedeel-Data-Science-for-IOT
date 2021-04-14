@@ -93,7 +93,7 @@ To get the output you need to run: python dht.py
 To access the visualized signal data on your phone, you first need to link Homebridge with your iPhone Home app. This can be done by opening the Home app on your iPhone and scanning the QR code found at the homescreen of the Homebridge dashboard. After scanning the QR code, the accessory will be added automatically to your Home app. In the file:"HomebridgeVisualization.png" it shows the visualization of humidity and temperature readings in my bedroom at the current time. 
 
 ## Video
-Refer to file "demonstration.mp4" for the demonstration video.
+Refer to file "demonstration.txt" for the link to the demonstration video.
 The video shows the real world prototype working and a simulation experiment is done to test the functionality of this IoT project. The humid and temperature condition in my bedroom is simulated by breathing out in the direction of the DHT22 sensor (breath contains water and is a higher temperature than the room is). This will make the humidity and temperature change temporary. The temperature and humidity is measured by the Home app and the Python script.
 
 
